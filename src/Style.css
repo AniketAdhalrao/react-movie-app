@@ -1,0 +1,115 @@
+body {
+    background-color: #000; 
+    color: #fff; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .header {
+    background-color: #000;
+    color: #fff;
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    padding: 10px;
+  }
+
+  .navbar {
+    background-color: #fff7f7; 
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    color: #fff; 
+    transition: color 0.3s ease; 
+  }
+  
+  .navbar-brand:hover {
+    color: #ff0; 
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  
+
+  .movie-details-container {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .poster-image {
+    width: 150px; 
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .movie-info {
+    max-width: 400px; 
+  }
+
+
+
+.movie-cast-container {
+    margin-top: 20px;
+  }
+  
+  .cast-list {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f0f0f0; 
+    white-space: nowrap; 
+  }
+  
+  .cast-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .cast-image {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cast-info {
+    margin-top: 8px;
+  }
+  
+  .cast-name {
+    font-weight: bold;
+  }
+  
+  .cast-character {
+    color: #777;
+  }
+  
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
